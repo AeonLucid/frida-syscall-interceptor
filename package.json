@@ -1,0 +1,20 @@
+{
+  "name": "frida-syscall-interceptor",
+  "version": "1.0.0",
+  "description": "Frida syscall interceptor",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "/dist/"
+  ],
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "devDependencies": {
+    "@types/frida-gum": "^14.5.0",
+    "@types/node": "^13.1.1",
+    "typescript": "^3.7.4"
+  }
+}
